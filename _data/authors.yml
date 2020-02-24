@@ -1,0 +1,13 @@
+Raman Rajarathinam:
+  name        : "Raman Rajarathinam"
+  bio         : "One in 7.b billion"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "ramanrajarathinam@gmail.com"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/RamanRajarathinam"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_itsmeraman"

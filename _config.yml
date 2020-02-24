@@ -1,3 +1,61 @@
+# Site Settings
 theme: jekyll-theme-minimal
 title: neuralmancers
 description: Summary of papers presented by Zohoites
+
+# Build settings
+markdown: kramdown
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : saiprasanna # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+
+author: Raman Rajarathinam
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
+timezone: "Asia/Calcutta" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      mathjax: true
+      author_profile: false
+      read_time: false
+      comments: true
+      share: false
+      relate
+
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

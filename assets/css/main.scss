@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/*
+   Typography
+   ========================================================================== */
+/* system typefaces */
+$sans-serif: -apple-system, BlinkMacSystemFont, "Noto Sans", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+$max-width: 1440px !default;
+
+/*
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 250px !default;
+$right-sidebar-width-wide: 300px !default;
+
+/*
+   Skin
+   ========================================================================== */
+
+$background-color: #ffffff !default;
+$text-color: #000 !default;
+$muted-text-color: #0d1013 !default;
+$primary-color: #000 !default;
+
+$border-color: mix(#fff, #393e46, 75%) !default;
+$footer-background-color: $primary-color !default;
+$link-color: #222 !default;
+$masthead-link-color: #333 !default;
+$masthead-link-color-hover: #4183C4 !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+html {
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px; // change to whatever
+  }
+}
+.archive__item-excerpt {
+  font-size: $type-size-5;
+}
