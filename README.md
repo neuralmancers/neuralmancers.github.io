@@ -1,7 +1,7 @@
 # Deep Learning Papers
 
 - ## NLP
-	- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+	- [Neural Machine Translation by Jointly Learning to Align and Translate](https://github.com/neuralmancers/papers/blob/master/NLP/neural-machine-translation-by-jointly-learning-to-align-and-translate/summary.md)
 
 - ## Computer Vision
 	_no papers yet_
