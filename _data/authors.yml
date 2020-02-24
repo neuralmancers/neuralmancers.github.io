@@ -1,7 +1,8 @@
 Authors:
-  name        : "Authors"
+  name : Authors
+  bio  : ''
   links:
-    - label: "Sai Prasanna"
-      url: "https://github.com/sai-prasanna"
-    - label: "Raman Rajarathianm"
-      url: "https://github.com/RamanRajarathinam"
+    - label : Sai Prasanna
+      url   : 'https://github.com/sai-prasanna'
+    - label : Raman Rajarathianm
+      url   : 'https://github.com/RamanRajarathinam'
