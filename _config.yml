@@ -50,7 +50,7 @@ defaults:
       read_time: false
       comments: true
       share: false
-      relate
+      related: false
 
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
