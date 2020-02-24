@@ -1,22 +1,7 @@
-Raman Rajarathinam:
-  name        : "Raman Rajarathinam"
-  bio         : "One in 7.2 billion"
+Authors:
+  name        : "Authors"
   links:
-    - label: "Github"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/RamanRajarathinam"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_itsmeraman"
-
-
-Sai Prasanna:
-  name             : "Sai Prasanna"
-  bio              : "I am an applied researcher working on machine learning for NLP."
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: "Sai Prasanna"
       url: "https://github.com/sai-prasanna"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/sai_prasanna"
+    - label: "Raman Rajarathianm"
+      url: "https://github.com/RamanRajarathinam"
