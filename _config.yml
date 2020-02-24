@@ -17,7 +17,9 @@ comments:
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 
-author: Raman Rajarathinam
+author: 
+  - Raman Rajarathinam
+  - Sai Prasanna
 
 # Outputting
 permalink: /:categories/:title/
