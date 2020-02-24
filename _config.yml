@@ -10,14 +10,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : disqus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : saiprasanna # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 
-author: Authors
+# author: Authors
 
 # Outputting
 permalink: /:categories/:title/
