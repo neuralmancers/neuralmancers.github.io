@@ -23,9 +23,9 @@ tags: [attention, machine-translation]
 
 - **Objective** : argmax<sub>y</sub> *p* ( y | x ), maximize the conditional probability of target sentence *y* given *x*.
 
-- Instead of generating fixed length vectors, whenever a decoder generates a output, it searches (soft-search) among source words where the most relevant information is present.
+- Instead of generating fixed-length vectors, whenever a decoder generates an output, it searches (soft-search) among source words where the most relevant information is present.
 
-- We especially uses RNN as our basic component for encoder and decoders.
+- We primarily use RNN as our fundamental component for encoder and decoders.
 
 ## Implementation
 ![image](/assets/images/Attention-Week-1/attention_1_2_arch.png)
