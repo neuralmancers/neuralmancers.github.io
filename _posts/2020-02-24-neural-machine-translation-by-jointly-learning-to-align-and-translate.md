@@ -1,10 +1,10 @@
 ---
-title:  Neural Machine Translation by Jointly Learning to Align and Translate
+title: Learning to Align and Translate
 categories: NLP
 tags: [attention, machine-translation]
 ---
 ## Neural Machine Translation by Jointly Learning to Align and Translate (2014)
-> Dzmitry  Bahdanau, Kyunghyun  Cho, Yoshua  Bengio
+> Authors : Dzmitry  Bahdanau, Kyunghyun  Cho, Yoshua  Bengio
 
 ## Abstract
 - **Task** : Machine Translation (English - French).
