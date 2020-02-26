@@ -29,6 +29,7 @@ tags: [attention, machine-translation]
 
 ## Implementation
 ![image](/assets/images/Attention-Week-1/attention_1_2_arch.png)
+##
 ![image](/assets/images/Attention-Week-1/attention_1_3_arch.png)
 - **Encoder** (BiLSTM) accepts previous hidden state (h<sub>t-1</sub>) and input word (x<sub>t</sub>)
 	- We skip the output of encoder and keeping only the hidden states, which we pass to next time step. equation,
