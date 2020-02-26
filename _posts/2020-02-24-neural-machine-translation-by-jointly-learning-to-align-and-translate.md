@@ -27,7 +27,7 @@ tags: [attention, machine-translation]
 - We especially uses RNN as our basic component for encoder and decoders.
 
 ## Implementation
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_1_2_arch.png)
+![](../assets/images/Attention-Week-1/attention_1_2_arch.png)
 - **Encoder** (BiLSTM) accepts previous hidden state (h<sub>t-1</sub>) and input word (x<sub>t</sub>)
 	- We skip the output of encoder and keeping only the hidden states, which we pass to next time step. equation,
 	$$
