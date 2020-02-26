@@ -44,18 +44,18 @@ tags: [attention, machine-translation]
 
 - **STEPS**
 	1. **Producing the Encoder Hidden States** - Encoder produces hidden states of each element in the input sequence
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_2_encoder.png)
+![image](/assets/images/Attention-Week-1/attention_2_encoder.png)
 	2. **Calculating Alignment Scores** between the previous decoder hidden state and each of the encoder’s hidden states are calculated (Note: The last encoder hidden state can be used as the first hidden state in the decoder)
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_3_alignment_score.png)
+![image](/assets/images/Attention-Week-1/attention_3_alignment_score.png)
 	3. **Softmaxing the Alignment Scores** - the alignment scores for each encoder hidden state are combined and represented in a single vector and subsequently softmaxed
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_4_softmax.png)
+![image](/assets/images/Attention-Week-1/attention_4_softmax.png)
 	4. **Calculating the Context Vector** - the encoder hidden states and their respective alignment scores are multiplied to form the context vector
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_5_context_vector.png)
+![image](/assets/images/Attention-Week-1/attention_5_context_vector.png)
 	5. **Decoding the Output** - the context vector is concatenated with the previous decoder output and fed into the Decoder RNN for that time step along with the previous decoder hidden state to produce a new output
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_6_decoder_output.png)
+![image](/assets/images/Attention-Week-1/attention_6_decoder_output.png)
 	7. **The process (steps 2-5)** repeats itself for each time step of the decoder until an token is produced or output is past the specified maximum length
 - **Overall Architecture**
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_1_arch.JPG)
+![image](/assets/images/Attention-Week-1attention_1_arch.JPG)
 ## Training
 - Corpus - 348M words
 - Experimenting with 2 models
@@ -64,7 +64,7 @@ tags: [attention, machine-translation]
 - On 2 data setting,  sentences of 
 	1. Length up to 30 words -> RNNencdec-30, RNNsearch-30
 	2. Length up to 50 words -> RNNencdec-50, RNNsearch-50
-[](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_7_training.png)
+![image](/assets/images/Attention-Week-1/attention_7_training.png)
 
 ## Output
-![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_8_output.png)
+![image](/assets/images/Attention-Week-1/attention_8_output.png)
