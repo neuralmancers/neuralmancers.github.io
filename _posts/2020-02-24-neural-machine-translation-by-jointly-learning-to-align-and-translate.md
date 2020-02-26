@@ -20,6 +20,7 @@ tags: [attention, machine-translation]
 	- Introducing **"Attention mechanism"** to decoder.
 
 ## Proposed Idea
+
 - **Objective** : argmax<sub>y</sub> *p* ( y | x ), maximize the conditional probability of target sentence *y* given *x*.
 
 - Instead of generating fixed length vectors, whenever a decoder generates a output, it searches (soft-search) among source words where the most relevant information is present.
@@ -27,7 +28,7 @@ tags: [attention, machine-translation]
 - We especially uses RNN as our basic component for encoder and decoders.
 
 ## Implementation
-![](../assets/images/Attention-Week-1/attention_1_2_arch.png)
+![](https://github.com/neuralmancers/neuralmancers.github.io/blob/master/assets/images/Attention-Week-1/attention_1_2_arch.png)
 - **Encoder** (BiLSTM) accepts previous hidden state (h<sub>t-1</sub>) and input word (x<sub>t</sub>)
 	- We skip the output of encoder and keeping only the hidden states, which we pass to next time step. equation,
 	$$
