@@ -4,20 +4,20 @@ categories: NLP
 tags: [attention, machine-translation]
 ---
 ## Neural Machine Translation by Jointly Learning to Align and Translate (2014)
-> Authors : Dzmitry  Bahdanau, Kyunghyun  Cho, Yoshua  Bengio
+> Authors: Dzmitry  Bahdanau, Kyunghyun  Cho, Yoshua  Bengio
 
 ## Abstract
-- **Task** : Machine Translation (English - French).
+- **Task**: Machine Translation (English - French).
 
 - Encoder - decoder architectures were introduced as an alternative to **phrase-based** models.
 
-- Encoder produces a *fixed length* vector for an input sequence, and the decoder tries to generate a output sequence from that vector.
+- Encoder produces a *fixed-length* vector for an input sequence, and the decoder tries to generate an output sequence from that vector.
 
 - **Problem**
-	- Difficult to capture all the information in a single vector, especially for a longer sequence words.
+	- Difficult to capture all the information in a single vector, especially for longer sequence words.
 
 - **Solution**
-	- Introducing **"Attention mechanism"** to decoder.
+	- Introducing **"Attention mechanism"** to the decoder.
 
 ## Proposed Idea
 
