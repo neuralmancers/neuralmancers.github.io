@@ -66,3 +66,20 @@ tags: [attention, machine-translation]
 
 ## Output
 ![image](/assets/images/Attention-Week-1/attention_8_output.png)
+
+## Paper Link
+
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+
+## Useful Links
+
+- http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+
+- https://blog.floydhub.com/attention-mechanism/
+
+
+## References
+These following papers inspire most of the paperwork.
+- Kalchbrenner, N. and Blunsom, P. (2013). Recurrent continuous translation models. InProceedingsof the ACL Conference on Empirical Methods in Natural Language Processing (EMNLP), pages1700–1709. Association for Computational Linguistics.
+- Sutskever, I., Vinyals, O., and Le, Q. (2014). Sequence to sequence learning with neural networks.InAdvances in Neural Information Processing Systems (NIPS 2014).
+- Cho, K., van Merri ̈enboer, B., Bahdanau, D., and Bengio, Y. (2014b). On the properties of neuralmachine translation: Encoder–Decoder approaches. InEighth Workshop on Syntax, Semanticsand Structure in Statistical Translation. to appear.
