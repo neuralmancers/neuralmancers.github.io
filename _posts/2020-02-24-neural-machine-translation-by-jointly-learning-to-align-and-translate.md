@@ -30,13 +30,12 @@ tags: [attention, machine-translation]
 ## Implementation
 
 - **Encoder** (BiLSTM) accepts previous hidden state (h<sub>t-1</sub>) and input word (x<sub>t</sub>)
-	- We skip the output of encoder and keeping only the hidden states, which we pass to next time step. equation,
-	h<sub>t</sub> = f ( x<sub>t</sub> , h<sub>t-1</sub> )
-	, where  _f_ is non-linear
+	- We skip the output of encoder and keeping only the hidden states, which we pass to next time step.
+	equation, h<sub>t</sub> = f (x<sub>t</sub> , h<sub>t-1</sub>), where  _f_ is non-linear
 
 - **Decoder** (BiLSTM) accepts **context vector** (c<sub>i</sub>), previous output (y<sub>i-1</sub>) and last hidden state (s<sub>i-1</sub>).
 	- equation,
-	y<sub>t</sub> = g ( y<sub>t-1</sub> , s<sub>t</sub> , c<sub>t</sub>)
+	y<sub>t</sub> = g (y<sub>t-1</sub> , s<sub>t</sub> , c<sub>t</sub>)
 	, where  _g_ is non-linear
 
 ##
