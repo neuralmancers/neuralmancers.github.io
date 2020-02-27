@@ -86,6 +86,8 @@ tags: [attention, machine-translation]
 
 - [Attention Mechanism](https://blog.floydhub.com/attention-mechanism/)
 
+- [Neural Networks for NLP by CMU](http://phontron.com/class/nn4nlp2020/assets/slides/nn4nlp-07-attention.pdf)
+
 
 ## References
 These following papers inspire most of the paperwork.
