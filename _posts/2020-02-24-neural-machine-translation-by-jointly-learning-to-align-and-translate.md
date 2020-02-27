@@ -21,7 +21,7 @@ tags: [attention, machine-translation]
 
 ## Proposed Idea
 
-- **Objective** : argmax<sub>y</sub> *p* ( y | x ), maximize the conditional probability of target sentence *y* given *x*.
+- **Objective** : argmax<sub>y</sub> *p* ( y | x ), maximize the conditional probability of target sentence *y* given source words *x*.
 
 - Instead of generating fixed-length vectors, whenever a decoder generates an output, it searches (soft-search) among source words where the most relevant information is present.
 
