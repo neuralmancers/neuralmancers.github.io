@@ -82,9 +82,9 @@ tags: [attention, machine-translation]
 
 ## Useful Links
 
-- http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+- [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
-- https://blog.floydhub.com/attention-mechanism/
+- [Attention Mechanism](https://blog.floydhub.com/attention-mechanism/)
 
 
 ## References
