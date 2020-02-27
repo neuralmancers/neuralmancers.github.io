@@ -53,7 +53,8 @@ tags: [attention, machine-translation]
 ![image](/assets/images/Attention-Week-1/attention_6_decoder_output.png)
 	7. **The process (steps 2-5)** repeats itself for each time step of the decoder until an token is produced or output is past the specified maximum length
 - **Overall Architecture**
-![image](/assets/images/Attention-Week-1attention_1_arch.JPG)
+![image](/assets/images/Attention-Week-1/attention_1_arch.JPG)
+
 ## Training
 - Corpus - 348M words
 - Experimenting with 2 models
