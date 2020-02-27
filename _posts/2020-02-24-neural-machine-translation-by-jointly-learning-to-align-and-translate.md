@@ -9,6 +9,8 @@ tags: [attention, machine-translation]
 ## Abstract
 - **Task**: Machine Translation (English - French).
 
+- **Objective** : argmax<sub>y</sub> *p* ( y | x ), maximize the conditional probability of target sentence *y* given source words *x*.
+
 - Encoder - decoder architectures were introduced as an alternative to **phrase-based** models.
 
 - Encoder produces a *fixed-length* vector for an input sequence, and the decoder tries to generate an output sequence from that vector.
@@ -20,8 +22,6 @@ tags: [attention, machine-translation]
 	- Introducing **"Attention mechanism"** to the decoder.
 
 ## Proposed Idea
-
-- **Objective** : argmax<sub>y</sub> *p* ( y | x ), maximize the conditional probability of target sentence *y* given source words *x*.
 
 - Instead of generating fixed-length vectors, whenever a decoder generates an output, it searches (soft-search) among source words where the most relevant information is present.
 
