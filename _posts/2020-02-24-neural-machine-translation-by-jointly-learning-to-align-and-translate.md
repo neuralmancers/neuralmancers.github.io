@@ -28,11 +28,6 @@ tags: [attention, machine-translation]
 - We primarily use RNN as our fundamental component for encoder and decoders.
 
 ## Implementation
-![image](/assets/images/Attention-Week-1/attention_1_2_arch.png)
-[image source](http://phontron.com/class/nn4nlp2020/assets/slides/nn4nlp-07-attention.pdf)
-##
-![image](/assets/images/Attention-Week-1/attention_1_3_arch.png)
-[image source](http://phontron.com/class/nn4nlp2020/assets/slides/nn4nlp-07-attention.pdf)
 - **Encoder** (BiLSTM) accepts previous hidden state (h<sub>t-1</sub>) and input word (x<sub>t</sub>)
 	- We skip the output of encoder and keeping only the hidden states, which we pass to next time step. equation,
 	h<sub>t</sub> = f ( x<sub>t</sub> , h<sub>t-1</sub> )
@@ -41,6 +36,13 @@ tags: [attention, machine-translation]
 	- equation,
 	y<sub>t</sub> = g ( y<sub>t-1</sub> , s<sub>t</sub> , c<sub>t</sub>)
 	, where  _g_ is non-linear
+
+##
+![image](/assets/images/Attention-Week-1/attention_1_2_arch.png)
+[image source](http://phontron.com/class/nn4nlp2020/assets/slides/nn4nlp-07-attention.pdf)
+##
+![image](/assets/images/Attention-Week-1/attention_1_3_arch.png)
+[image source](http://phontron.com/class/nn4nlp2020/assets/slides/nn4nlp-07-attention.pdf)
 
 - **STEPS**
 	1. **Producing the Encoder Hidden States** - Encoder produces hidden states of each element in the input sequence
