@@ -1,10 +1,10 @@
 ---
 title: Neural Module Networks
 categories: NLP
-tags: [Semantic Parsing, Visual Q/A, Symbolic AI, CV, NLP]
 author: Sai Prasanna
+tags: [Semantic Parsing, Visual Q/A, Symbolic AI, CV, NLP]
 ---
-- Research Paper -  https://arxiv.org/abs/1511.02799
+- Research Paper -  [https://arxiv.org/abs/1511.02799](https://arxiv.org/abs/1511.02799)
 - Authors - Jacob Andreas, Marcus Rohrbach, Trevor Darrell, Dan Klein
 - ## Key Idea
     - Parse questions of visual QA into a description of compositions of functions. These functions are neural networks called Neural Modules. Execute the neural networks and reweigh the resulting label using question representation.
