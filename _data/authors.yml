@@ -1,8 +1,20 @@
-Authors:
-  name : Authors
-  bio  : ''
+Sai Prasanna:
+  name             : "Sai Prasanna"
+  avatar           : "/assets/images/sai.jpg"
+  bio              : "I am an applied machine learning engineer working on machine learning for NLP."
   links:
-    - label : Sai Prasanna
-      url   : 'https://github.com/sai-prasanna'
-    - label : Raman Rajarathianm
-      url   : 'https://github.com/RamanRajarathinam'
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sai_prasanna"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sai-prasanna"
+
+Raman Rajarathianm:
+  name        : "Raman Rajarathianm"
+  bio         : ""
+  avatar      : "/assets/images/raman.jpg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/RamanRajarathinam"
