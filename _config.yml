@@ -16,7 +16,7 @@ search_full_content      : true # true, false (default)
 # author: Authors
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Asia/Calcutta" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
