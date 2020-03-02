@@ -26,6 +26,7 @@ Given a question like "What color is the coffee mug?" and an image we want to pr
 - Semantic Parsing approach
     - Parse the question into logical expressions, image into logical representation of the world and use logic based reasoning to solve the problem.
     - This is more compositional.
+
 ## Motivation
 - Combine the representational capacity of neural nets and compositionality of symbolic approach.
 - So, "Rather than thinking of question answering as a problem of learning a single function to map from questions and contexts to answers, it’s perhaps useful
@@ -34,7 +35,9 @@ each problem instance is associated with a novel task, and
 the  identity  of  that  task  is  expressed  only  noisily  in  language."
 - Simple example - "Is this a truck?" - Needs single task to be performed, namely truck or not classification.
 - Compositional example - "What is the object to the left of the tea pot?" - Needs one to find the teapot, detect object to its left, then classify the object.
+
 ## Architecture
+
 ### Neural Modules
 - Identify set of modules that can be composed to solve all/most tasks.
 - Modules can be thought of as a function parametrized by a neural network, with a type signature.
@@ -44,6 +47,7 @@ the  identity  of  that  task  is  expressed  only  noisily  in  language."
     - ![Reattention module](/assets/images/neural-module-networks/4.png)
     - ![Combination module](/assets/images/neural-module-networks/5.png)
     - ![Measurement Module](/assets/images/neural-module-networks/6.png)
+
 ### Strings -> Modules
 - **Parsing**
     - Use few rules on dependency parse of the question to convert it into a structured query.
@@ -52,6 +56,7 @@ the  identity  of  that  task  is  expressed  only  noisily  in  language."
     - "All leaves become attend modules, all internal nodes become
 re-attend or combine modules dependent on their arity, and root nodes become measure modules for yes/no questions and classify modules for all other question types."
         - The queries could come from anywhere not just natural language question. As long as they can be converted to a layout in the end.
+
 ### Answering
 - An RNN is used to process the question and predict a label directly without looking into the image.
 - This is combined with the final label from the root node of the Neural Modules using geometric mean to get the final result.
@@ -63,11 +68,13 @@ re-attend or combine modules dependent on their arity, and root nodes become mea
     - Semantic Regularity/Prior
         - Some answers are unreasonable just by inspecting the question.
             - For example, What colour is the bear? eliminates all non-colour answers.
+
 ## Benchmarks
 - They try this in vqa dataset - https://visualqa.org/ a huge dataset with natural images and questions with answers.
     - ![Benchmarks table for VQA](https://d3i71xaburhd42.cloudfront.net/21c99706bb26e9012bfb4d8d48009a3d45af59b2/7-Table3-1.png)
 - Since VQA doesn't have many deep compositional questions, they use shapes a synthetically generated dataset.
     - ![Synthetic Shapes dataset](https://d3i71xaburhd42.cloudfront.net/21c99706bb26e9012bfb4d8d48009a3d45af59b2/7-Table2-1.png)
+
 ## Examples
 - What colour is his tie? ![Statue of a man with yellow tie, question parsed to modules 1. find tie  2. describe colour ](https://d3i71xaburhd42.cloudfront.net/21c99706bb26e9012bfb4d8d48009a3d45af59b2/5-Figure2-1.png)
 - ![Correct and incorrect predictions](/assets/images/neural-module-networks/7.png)
