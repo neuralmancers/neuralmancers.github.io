@@ -13,7 +13,7 @@ words_per_minute         : 200
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 
-# author: Authors
+author: NeuralMancers
 
 # Outputting
 permalink: /:title/
