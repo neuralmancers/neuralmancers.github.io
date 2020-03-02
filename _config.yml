@@ -42,7 +42,7 @@ defaults:
     values:
       layout: single
       mathjax: true
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: true
       share: false
