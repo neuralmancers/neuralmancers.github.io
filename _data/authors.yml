@@ -18,3 +18,16 @@ Raman Rajarathianm:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/RamanRajarathinam"
+
+Ananda Seelan:
+  name             : "Ananda Seelan"
+  avatar           : "/assets/images/seelan.jpg"
+  bio              : "Deep Learning Engineer @ Zoho | Graduate Student Online @ Georgia Tech"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/scarecrow1123"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sri-ananda-seelan-lakshmi-narasimhan-86330776/"
+    
