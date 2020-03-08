@@ -1,5 +1,5 @@
 ---
-title: Summary: Learning to Align and Translate
+title: Summary - Learning to Align and Translate
 categories: NLP
 tags: [attention, machine-translation]
 ---
