@@ -12,12 +12,15 @@ Sai Prasanna:
 
 Raman Rajarathianm:
   name        : "Raman Rajarathianm"
-  bio         : ""
-  avatar      : "/assets/images/raman.jpg"
+  avatar      : "https://avatars3.githubusercontent.com/u/16095608?s=400"
+  bio         : "Machine Learning Engineer @ Zoho"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/RamanRajarathinam"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/raman-rajarathinam-a02b8810a/"
 
 Ananda Seelan:
   name             : "Ananda Seelan"
