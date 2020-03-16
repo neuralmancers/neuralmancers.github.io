@@ -30,4 +30,11 @@ Ananda Seelan:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sri-ananda-seelan-lakshmi-narasimhan-86330776/"
-    
+
+GVS Kalyan:
+  name             : "GVS Kalyan"
+  bio              : "DL Enginner @Zoho working on NLProc"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gvskalyan"
