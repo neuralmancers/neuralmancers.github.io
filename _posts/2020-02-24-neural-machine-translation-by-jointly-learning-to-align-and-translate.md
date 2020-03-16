@@ -1,6 +1,7 @@
 ---
 title: Summary - Learning to Align and Translate
 categories: NLP
+author: Raman Rajarathianm
 tags: [attention, machine-translation]
 ---
 ## Neural Machine Translation by Jointly Learning to Align and Translate (2014)
